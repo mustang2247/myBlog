@@ -3,7 +3,7 @@ package com.zslin.app.model;
 import javax.persistence.*;
 
 /**
- * Created by zsl-pc on 2016/9/27.
+ * 类别
  */
 @Entity
 @Table(name = "t_category")

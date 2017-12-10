@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 /**
- * Created by 钟述林 393156105@qq.com on 2016/10/20 14:27.
+ * 伙伴
  */
 @Entity
 @Table(name = "t_partner")

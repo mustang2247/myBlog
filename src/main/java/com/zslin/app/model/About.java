@@ -3,7 +3,7 @@ package com.zslin.app.model;
 import javax.persistence.*;
 
 /**
- * Created by zsl-pc on 2016/10/8.
+ * 关于
  */
 @Entity
 @Table(name = "t_about")

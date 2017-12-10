@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 /**
- * Created by zsl-pc on 2016/9/27.
+ * 文章
  */
 @Entity
 @Table(name = "t_article")

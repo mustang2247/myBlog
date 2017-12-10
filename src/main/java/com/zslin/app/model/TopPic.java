@@ -4,7 +4,6 @@ import javax.persistence.*;
 
 /**
  * 顶部图片
- * Created by 钟述林 393156105@qq.com on 2016/11/11 15:20.
  */
 @Entity
 @Table(name = "t_top_pic")

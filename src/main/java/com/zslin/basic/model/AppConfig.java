@@ -4,97 +4,137 @@ import javax.persistence.*;
 
 /**
  * 系统配置
- * @author zslin.com 20160519
  *
+ * @author zslin.com 20160519
  */
 @Entity
-@Table(name="b_app_config")
+@Table(name = "b_app_config")
 public class AppConfig {
 
-	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
-	private Integer id;
-	
-	/** 系统名称 */
-	@Column(name="app_name")
-	private String appName;
-	
-	/** 当前版本 */
-	@Column(name="app_version")
-	private String appVersion;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer id;
 
-	/** 创建日期 */
-	@Column(name="create_date")
-	private String createDate;
-	
-	/** 初始化标记，如果为空或为0，表示都可以初始化 */
-	@Column(name="init_flag")
-	private String initFlag;
-	
-	/** 首页路径 */
-	@Column(name="index_page")
-	private String indexPage;
-	
-	/** 页末联系人 */
-	private String contant;
+    /**
+     * 系统名称
+     */
+    @Column(name = "app_name")
+    private String appName;
 
-	public String getContant() {
-		return contant;
-	}
+    /**
+     * 当前版本
+     */
+    @Column(name = "app_version")
+    private String appVersion;
 
-	public void setContant(String contant) {
-		this.contant = contant;
-	}
+    /**
+     * 创建日期
+     */
+    @Column(name = "create_date")
+    private String createDate;
 
-	/** 首页路径 */
-	public String getIndexPage() {
-		return indexPage;
-	}
+    /**
+     * 初始化标记，如果为空或为0，表示都可以初始化
+     */
+    @Column(name = "init_flag")
+    private String initFlag;
 
-	/** 首页路径 */
-	public void setIndexPage(String indexPage) {
-		this.indexPage = indexPage;
-	}
+    /**
+     * 首页路径
+     */
+    @Column(name = "index_page")
+    private String indexPage;
 
-	/** 初始化标记，如果为空或为0，表示都可以初始化 */
-	public String getInitFlag() {
-		return initFlag;
-	}
+    /**
+     * 页末联系人
+     */
+    private String contant;
 
-	/** 初始化标记，如果为空或为0，表示都可以初始化 */
-	public void setInitFlag(String initFlag) {
-		this.initFlag = initFlag;
-	}
+    public int getShowPay() {
+        return showPay;
+    }
 
-	public String getCreateDate() {
-		return createDate;
-	}
+    public void setShowPay(int showPay) {
+        this.showPay = showPay;
+    }
 
-	public void setCreateDate(String createDate) {
-		this.createDate = createDate;
-	}
+    private int showPay;
 
-	public Integer getId() {
-		return id;
-	}
+    public int getShowAdd() {
+        return showAdd;
+    }
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    public void setShowAdd(int showAdd) {
+        this.showAdd = showAdd;
+    }
 
-	public String getAppName() {
-		return appName;
-	}
+    private int showAdd;
 
-	public void setAppName(String appName) {
-		this.appName = appName;
-	}
+    public String getContant() {
+        return contant;
+    }
 
-	public String getAppVersion() {
-		return appVersion;
-	}
+    public void setContant(String contant) {
+        this.contant = contant;
+    }
 
-	public void setAppVersion(String appVersion) {
-		this.appVersion = appVersion;
-	}
+    /**
+     * 首页路径
+     */
+    public String getIndexPage() {
+        return indexPage;
+    }
+
+    /**
+     * 首页路径
+     */
+    public void setIndexPage(String indexPage) {
+        this.indexPage = indexPage;
+    }
+
+    /**
+     * 初始化标记，如果为空或为0，表示都可以初始化
+     */
+    public String getInitFlag() {
+        return initFlag;
+    }
+
+    /**
+     * 初始化标记，如果为空或为0，表示都可以初始化
+     */
+    public void setInitFlag(String initFlag) {
+        this.initFlag = initFlag;
+    }
+
+    public String getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(String createDate) {
+        this.createDate = createDate;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getAppName() {
+        return appName;
+    }
+
+    public void setAppName(String appName) {
+        this.appName = appName;
+    }
+
+    public String getAppVersion() {
+        return appVersion;
+    }
+
+    public void setAppVersion(String appVersion) {
+        this.appVersion = appVersion;
+    }
 }

@@ -3,7 +3,7 @@ package com.zslin.app.model;
 import javax.persistence.*;
 
 /**
- * Created by 钟述林 393156105@qq.com on 2017/5/12 23:11.
+ * 用户
  */
 @Entity
 @Table(name = "t_account")
