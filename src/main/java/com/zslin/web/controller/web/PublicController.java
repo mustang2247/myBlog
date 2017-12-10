@@ -18,7 +18,6 @@ import java.util.List;
 
 /**
  * 公共的Controller
- * Created by zsl-pc on 2016/9/13.
  */
 @RestController
 @RequestMapping(value = "public")

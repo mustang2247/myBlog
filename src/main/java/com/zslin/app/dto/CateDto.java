@@ -1,7 +1,7 @@
 package com.zslin.app.dto;
 
 /**
- * Created by zsl-pc on 2016/10/8.
+ * 类别
  */
 public class CateDto {
 

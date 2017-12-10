@@ -3,7 +3,7 @@ $(function() {
         var thisObj = $(this);
         var html = '<h2 class="cate-title">分 类</h2>';
         $.get("/public/listCates",{}, function(res) {
-//            alert(JSON.stringify(res));
+           alert(JSON.stringify(res));
             html += '<ul class="cate-ul-list">';
             for(var i=0; i<res.length; i++) {
                 var obj = res[i];
