@@ -63,7 +63,7 @@
                 <ul class="model-top-ul">
                     <li><a href="/"><i class="fa fa-home"></i> 首页</a></li>
                     <li th:each="navCate : ${session.navCateList}"><a th:href="'/?cateId='+${navCate.id}"><i th:class="${navCate.icon}"></i> <span th:text="${navCate.name}"></span></a></li>
-                    <li><a href="/about"><i class="fa fa-at"></i> 关于</a></li>
+                    <li><a href="/about"><i class="fa fa-at"></i> 关于作者</a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-sm-12 col-xs-12 text-left model-search-div">

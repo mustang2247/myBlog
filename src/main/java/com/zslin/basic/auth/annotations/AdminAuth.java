@@ -5,8 +5,6 @@ import java.lang.annotation.RetentionPolicy;
 
 /**
  * 后台管理的Annotation对象
- * @author zslin.com 20160513
- *
  */
 //RetentionPolicy.RUNTIME 表示运行时保留
 @Retention(RetentionPolicy.RUNTIME)

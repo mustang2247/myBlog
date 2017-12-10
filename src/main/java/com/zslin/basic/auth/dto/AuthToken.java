@@ -7,8 +7,6 @@ import java.util.List;
 
 /**
  * 登陆令牌对象DTO
- * @author zslin.com 20160514
- *
  */
 public class AuthToken {
 

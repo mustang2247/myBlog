@@ -60,7 +60,7 @@
                             &nbsp;<span title="标签" class="fa fa-tags article-tags" th:text="' '+${article.tags}"></span>
                         </p>
                     </div>
-                    <div class="container-fluid" style="padding:10px 0px; color:#aaa;">本文所属【<a href="http://www.zslin.com">知识林</a>】：<span th:text="'http://www.zslin.com/web/article/detail/'+${article.id}" th:remove="tag"></span></div>
+                    <div class="container-fluid" style="padding:10px 0px; color:#aaa;">本文所属【<a href="http://www.zslin.com">黑暗世界</a>】：<span th:text="'http://www.zslin.com/web/article/detail/'+${article.id}" th:remove="tag"></span></div>
 
                     <a th:if="${article.videoUrl ne null and article.videoUrl ne ''}" th:href="${article.videoUrl}" th:title="${article.title}+' - 知识林'"
                        th:style="'display:block;width:100%;height:'+${article.videoHeight eq null or article.videoHeight eq '' ? '500px':article.videoHeight}"
@@ -70,7 +70,7 @@
                     <script type="text/javascript">
                         flowplayer("player", "/flowplayer/flowplayer-3.2.18.swf", {clip:{autoPlay:false,autoBuffering: true}});
                     </script>
-                    <div class="container-fluid" style="padding:10px 0px; color:#aaa;">本文所属【<a href="http://www.zslin.com">知识林</a>】：<span th:text="'http://www.zslin.com/web/article/detail/'+${article.id}" th:remove="tag"></span></div>
+                    <div class="container-fluid" style="padding:10px 0px; color:#aaa;">本文所属【<a href="http://www.zslin.com">黑暗世界</a>】：<span th:text="'http://www.zslin.com/web/article/detail/'+${article.id}" th:remove="tag"></span></div>
                     <!--<div id="editormd-view">
                         <textarea style="display:none;" th:text="${article.content}"></textarea>
                     </div>-->

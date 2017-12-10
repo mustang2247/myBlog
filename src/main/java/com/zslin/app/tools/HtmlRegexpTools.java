@@ -10,15 +10,7 @@ import java.util.regex.Pattern;
  * <p>
  * Description: 包括过滤HTML标记，转换HTML标记，替换特定HTML标记
  * </p>
- * <p>
- * Copyright: Copyright (c) 2006
- * </p>
- * 
- * @author hejian
- * @version 1.0
- * @createtime 2006-10-16
  */
-
 public class HtmlRegexpTools {
 	private final static String regxpForHtml = "<([^>]*)>"; // 过滤所有以<开头以>结尾的标签
 

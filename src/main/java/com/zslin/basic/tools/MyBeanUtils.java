@@ -10,7 +10,6 @@ import java.util.Set;
 
 /**
  * 重写Spring下BeanUtils的copyProperties方法
- * @author zslin.com 20160522
  */
 public class MyBeanUtils extends BeanUtils {
 	

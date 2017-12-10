@@ -6,9 +6,6 @@ import java.util.List;
 
 /**
  * 父级菜单DTO对象
- * 
- * @author zslin.com 20160514
- *
  */
 public class PMenuDto implements Comparable<PMenuDto> {
 

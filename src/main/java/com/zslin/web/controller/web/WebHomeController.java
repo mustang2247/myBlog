@@ -22,10 +22,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import java.util.List;
 
 /**
- * Created by zsl-pc on 2016/9/28.
+ * 网站首页
  */
 @Controller
-public class WebController {
+public class WebHomeController {
 
     @Autowired
     private IArticleService articleService;

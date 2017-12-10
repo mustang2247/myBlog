@@ -6,8 +6,6 @@ import java.util.List;
 
 /**
  * 菜单DTO对象
- * @author zslin.com 20160514
- *
  */
 public class MenuDto implements Comparable<MenuDto> {
 

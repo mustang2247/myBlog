@@ -1,7 +1,7 @@
 package com.zslin.basic.tools;
 
 /**
- * Created by zsl-pc on 2016/9/15.
+ * 搜索条件
  */
 public class SearchCriteria {
     private String key;

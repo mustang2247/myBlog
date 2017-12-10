@@ -4,8 +4,6 @@ import javax.persistence.*;
 
 /**
  * 系统配置
- *
- * @author zslin.com 20160519
  */
 @Entity
 @Table(name = "b_app_config")
